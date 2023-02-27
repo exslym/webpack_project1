@@ -55,19 +55,6 @@ module.exports = merge(common, {
 					},
 				},
 			},
-			// {
-			// 	test: /\.js$/,
-			// 	type: 'javascript/auto',
-			// },
-			// {
-			// 	test: /\.js$/,
-			// 	include: Path.resolve(__dirname, '../src'),
-			// 	enforce: 'pre',
-			// 	loader: 'eslint-loader',
-			// 	options: {
-			// 		emitWarning: true,
-			// 	},
-			// },
 		],
 	},
 });

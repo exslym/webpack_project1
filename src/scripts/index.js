@@ -1,5 +1,3 @@
-// import 'bootstrap';
-// import $ from 'jquery';
 import '../styles/index.scss';
 import { userScript } from './extra/user';
 

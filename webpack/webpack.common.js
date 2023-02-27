@@ -48,22 +48,17 @@ module.exports = {
 				type: 'javascript/auto',
 			},
 			{
-				test: /\.(mp4|ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)(\?.*)?$/,
+				test: /\.(ico|jpg|jpeg|png|gif|webp|tiff|svg)(\?.*)?$/,
 				type: 'asset/resource',
 			},
-
-			// {
-			// 	test: /\.(ico|jpg|jpeg|png|gif|webp|tiff|svg)(\?.*)?$/,
-			// 	type: 'asset/resource',
-			// },
-			// {
-			// 	test: /\.(mp4|mp3|ogg|wav|pdf|docx|doc|xls|xlsx)(\?.*)?$/,
-			// 	type: 'asset/resource',
-			// },
-			// {
-			// 	test: /\.(eot|otf|fnt|ttf|woff|woff2)(\?.*)?$/,
-			// 	type: 'asset/resource',
-			// },
+			{
+				test: /\.(mp4|mp3|ogg|wav|pdf|docx|doc|xls|xlsx)(\?.*)?$/,
+				type: 'asset/resource',
+			},
+			{
+				test: /\.(eot|otf|fnt|ttf|woff|woff2)(\?.*)?$/,
+				type: 'asset/resource',
+			},
 		],
 	},
 };
